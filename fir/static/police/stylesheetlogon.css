@@ -1,0 +1,41 @@
+h1{
+
+	color:#fff743;
+	background-color:#c01158;
+	font-style:Helvetica;
+	text-align:center;
+	height:50px;
+	width: 100%;
+	line-height:auto;
+	margin:0px;
+	border: 3px solid #c01158;
+	border-radius: 5px;
+}
+
+
+body{
+
+	background:linear-gradient(#fff743,#c01158);;
+	width:100%;
+	height:500px;
+	opacity:0.75;'
+	height:200px;
+	width:100%;
+	overflow:scroll;
+	border:2px solid #c01158;
+}
+
+a
+{
+	color: black;
+}
+li{
+
+	font-size: 30px;
+  opacity:0.75;
+  text-align:center;
+  font-style:verdana;
+  font-size:20px;
+	font-weight: bold;
+
+	}

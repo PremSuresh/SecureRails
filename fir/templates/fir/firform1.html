@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Secure Rails </title>
+	<meta name="description" content="Wiredwiki App">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+	<style>
+	body{
+		padding-top: 40px;
+	}
+	</style>
+
+
+<body>
+	<!--navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+		<a href="" class="navbar-brand">Secure Rails</a>
+	</div>
+	</div>
+	</nav>
+	<div class="jumbotron">
+		<div class="container text-left">
+			<h1>File Complaint</h1>
+			<p>Transforming your railway experience</p>
+	<section>
+	<div class="container">
+	<div class="col-lg-8">
+            <form action="" class="form-horizontal">
+              <div class="form-group">
+                <label for="PNR" class="col-lg-2 control-label">PNR</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-name" placeholder="Enter your PNR">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="PhoneNumber" class="col-lg-2 control-label">Phone Number</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="text" placeholder="Enter your Phone number">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-url" class="col-lg-2 control-label">Type of Complaint</label>
+                <div class="col-lg-10">
+
+                  <select class="form-control" data-style="btn-danger">
+                  	<option>GRP(Law and order)</option>
+                  	<option>RPF(Theft)</option>
+                  </select>
+
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Complaint Description</label>
+                <div class="col-lg-10">
+                  <textarea name="user-message" id="user-message" class="form-control"
+                  cols="20" rows="10" placeholder="Enter your complaint"></textarea>
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+
+
+            </form>
+          </div>
+      </div>
+  </section>
+</div>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

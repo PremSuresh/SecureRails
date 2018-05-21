@@ -1,0 +1,75 @@
+img
+{
+    width: 75px;
+    height: 75px;
+    margin-left: 8%;
+    margin-top: -6%;
+    position: fixed;
+}
+form
+{
+
+  position: fixed;
+  height: 300px;
+  width: 300px;
+  background-color: #121111;
+  color: white;
+  opacity: 0.75;
+  padding: 20px 20px;
+  margin-left: 37%;
+  margin-top: 5%;
+}
+body
+{
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/89/50/7457d923696c856.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+p1
+{
+  font-size: 22px;
+  margin-top: 2%;
+  text-align: left;
+  position:fixed;
+}
+p2
+{
+  font-size: 22px;
+  margin-top: 2%;
+  text-align: left;
+  position: fixed;
+}
+input[type=text]
+{
+  width: 98%;
+  margin-top: 17%;
+  padding: 7px 4px;
+  padding-bottom: 2px;
+  background-color: #f6e7a6;
+  font-size: 18px;
+}
+
+input[type=password]
+{
+  width: 98%;
+  margin-top: 17%;
+  padding: 7px 4px;
+  padding-bottom: 2px;
+  background-color: #f6e7a6;
+  font-size: 18px;
+}
+input[type=submit]
+{
+  width: 100%;
+  margin-top: 12%;
+  padding: 10px 10px;
+  background-color: #0e54ff;
+  font-size: 20px;
+  color: white;
+  cursor:pointer;
+}
+input[type=submit]:hover
+{
+  background-color: #0e368b;
+  opacity: 100%;
+}

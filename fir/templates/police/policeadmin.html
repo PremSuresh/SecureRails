@@ -1,0 +1,15 @@
+{% load static %}
+<!doctype html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'police/adminlogstyle.css' %}"
+</head>
+<body>
+
+<img src="{% static 'police/login.png' %}">
+
+<form action="" method="post" autocomplete="off">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type='submit' value='Submit form'>
+</form>
+</body>

@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'response/firformstyle.css'%}">
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+  <top><h1>Complaint</h1></top><br>
+
+<input type="text" name="pnr" value="{{form.pnr}}" disabled ><br>
+<input type="text" name="phone" value="{{form.phone}}" disabled><br>
+<input type="text" name="type" value="{{form.type}}" disabled><br>
+<textarea name="complaint" rows="8" cols="50" placeholder="{{form.complaint}}" disabled></textarea><br>
+{% if form.status == 'Unresolved' %}
+<input type="submit" value="Resolve">
+{% else %}
+<input type="text" value="Resolved">
+{% endif %}
+</form>
+</body>

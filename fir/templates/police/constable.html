@@ -1,0 +1,12 @@
+{% load static %}
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'response/adminlogstyle.css' %}"
+</head>
+<body>
+<form action="" method="post" >
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type='submit' value="Enter Train">
+</form>
+</body>

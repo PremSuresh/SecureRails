@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'response/firformstyle.css'%}">
+</head>
+<body>
+<form>
+  <top><h1>YOUR RESPONSE</h1></top><br>
+<input type="text" name="pnr" value="{{form.pnr}}" disabled ><br>
+<input type="text" name="phone" value="{{form.phone}}" disabled><br>
+<input type="text" name="type" value="{{form.type}}" disabled><br>
+<textarea name="complaint" rows="8" cols="50" placeholder="{{form.complaint}}" disabled></textarea><br>
+<input type = "text" name="status" value="{{form.status}}" disabled><br>
+</form>
+</body>

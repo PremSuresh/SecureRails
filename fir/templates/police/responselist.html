@@ -1,0 +1,28 @@
+{% load static %}
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'police/stylesheetlogon.css'%}"
+</head>
+<body>
+  <h1>List of complaints</h1><br>
+<ul>
+  {% for form in all_forms %}
+  {% if form.nearest == user %}
+  {% for constables in all_constables %}
+  {% if form.pnr == constables.pnr %}
+  {% if form.status == 'Unresolved' %}
+  <li><a href="/police/{{form.phone}}">{{form.phone}}--->{{constables.name}}[{{constables.phone}}]</a></li>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+  {% for form in all_forms %}
+  {% if form.nearest == user %}
+  {% if form.status == 'Resolved' %}
+  <li><a href="/police/{{form.phone}}">{{form.phone}}</a></li>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</ul>
+</body>

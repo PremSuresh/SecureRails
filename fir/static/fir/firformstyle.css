@@ -1,0 +1,98 @@
+h1
+{
+  height: 60px;
+  width: 700px;
+  background-color: #005ffd;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 35px;
+  color: white;
+  font-style: oblique;
+
+}
+form
+{ height: 1200px;
+  width: 700px;
+  background-color: #22211e;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 25%;
+  opacity: 0.90;
+}
+input[type="text"]
+{
+  width: 80%;
+  margin-top: 2%;
+  padding: 7px 4px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  background-color: #f9e6ae;
+  font-size: 18px;
+}
+input[type="email"]
+{
+  width: 80%;
+  margin-top: 2%;
+  padding: 7px 4px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  background-color: #f9e6ae;
+  font-size: 18px;
+}
+textarea
+{
+  width: 80%;
+  margin-top: 2%;
+  padding: 7px 4px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  background-color: #f9e6ae;
+  font-size: 18px;
+}
+select
+{
+  width: 80%;
+  margin-top: 2%;
+  padding: 7px 4px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  background-color: #f9e6ae;
+  font-size: 18px;
+  cursor: pointer;
+}
+input[type="button"]
+{
+  width: 150px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+input[type="Submit"]
+{
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2%;
+
+}
+input[type="button"]:hover
+{
+  background-color: #278113;
+}
+input[type="Submit"]:hover
+{
+  background-color: #278113;
+}
+body
+{
+  background-image: url("http://images.jagran.com/IRCTC_BB_05052016.jpg");
+}
